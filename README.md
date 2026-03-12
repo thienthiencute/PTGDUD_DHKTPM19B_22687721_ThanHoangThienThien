@@ -159,7 +159,38 @@ npm run dev
 # 📂 Cấu trúc thư mục
 
 ```
-src ├─ components │ ├─ Header.jsx │ ├─ Footer.jsx │ ├─ StudentInfo.jsx │ ├─ Counter.jsx │ ├─ StatusBadge.jsx │ ├─ TodoApp.jsx │ ├─ TodoInput.jsx │ ├─ TodoList.jsx │ └─ TodoItem.jsx ├─ App.jsx └─ main.jsx
+## 📂 Cấu trúc thư mục
+
+```
+src
+ ├─ components
+ │   ├─ Header.jsx
+ │   ├─ Footer.jsx
+ │   ├─ StudentInfo.jsx
+ │   ├─ Counter.jsx
+ │   ├─ StatusBadge.jsx
+ │   ├─ TodoApp.jsx
+ │   ├─ TodoInput.jsx
+ │   ├─ TodoList.jsx
+ │   └─ TodoItem.jsx
+ ├─ App.jsx
+ └─ main.jsx
+```
+
+### Giải thích
+
+| File            | Chức năng                            |
+| --------------- | ------------------------------------ |
+| Header.jsx      | Hiển thị tiêu đề trang               |
+| Footer.jsx      | Hiển thị footer                      |
+| StudentInfo.jsx | Hiển thị thông tin sinh viên         |
+| Counter.jsx     | Ứng dụng tăng giảm số                |
+| StatusBadge.jsx | Hiển thị trạng thái user             |
+| TodoApp.jsx     | Component cha quản lý state của Todo |
+| TodoInput.jsx   | Nhập công việc mới                   |
+| TodoList.jsx    | Hiển thị danh sách công việc         |
+| TodoItem.jsx    | Hiển thị từng công việc              |
+
 ```
 
 ---
