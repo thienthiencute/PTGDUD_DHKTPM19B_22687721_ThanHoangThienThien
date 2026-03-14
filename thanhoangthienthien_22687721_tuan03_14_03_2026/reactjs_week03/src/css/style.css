@@ -1,0 +1,25 @@
+/* Light theme */
+body.light {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  body.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .card.light {
+    background-color: #f4f4f4;
+  }
+  
+  .card.dark {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
